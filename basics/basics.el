@@ -76,3 +76,19 @@ More detailed documentation here."
     ; last expression is returned
     )
   )
+
+
+;;; Lists
+(setq my-names '("Bob" "Rob" "Job"))
+;;; get first element using car
+(car my-names)
+;;; get the list without the first item
+(cdr my-names)
+;;; add an element
+(push "Nob" my-names)
+;;; do something for each element
+(defun my-hello (name)
+  (message "Hi, %s" name )
+  )
+(my-hello "Adam")
+(mapcar 'my-hello  my-names)
