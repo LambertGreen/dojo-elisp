@@ -16,7 +16,6 @@
 (message "The string is %s" "foobar")
 (message "The list is %S" (list 8 4 "three"))
 
-
 ;;; True/False
 (if t "yes" "no") ; yes
 (if nil "yes" "no") ; no
@@ -76,7 +75,6 @@ More detailed documentation here."
     ; last expression is returned
     )
   )
-
 
 ;;; Lists
 (setq my-names '("Bob" "Rob" "Job"))
